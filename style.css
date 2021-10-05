@@ -1,0 +1,215 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.contact {
+
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), #3551b5), url(./img/email-6370595_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* form */
+form {
+    width: 90%;
+    max-width: 600px;
+
+}
+
+.input-group {
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    outline: 0px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 20px;
+
+}
+
+label {
+
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+
+/* form button  */
+.btn {
+
+    padding: 10px 0px;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgb(76, 142, 204);
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+    top: -5px;
+    font-size: 10px;
+}
+
+h1{
+
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0px 30px; */
+}
+@media(min-width:200px) and (max-width:600px){
+
+    #name{
+        padding: 10px 90px;
+    }
+    #Lastname{
+        padding: 10px 90px;
+    }
+    .row{
+
+        flex-direction: column;
+        
+    }
+.input-group {
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.btn {
+    padding: 5px 0px;
+    width: 100%;
+    cursor: pointer;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+    top: -5px;
+    font-size: 10px;
+}
+
+h1{
+    font-size: 25px;
+    margin-bottom: 5px;
+   } 
+}
+@media (min-width: 400px) and (max-width:600px){
+
+
+
+
+    #name{
+        padding: 8px 145px;
+    }
+    #Lastname{
+        padding: 8px 145px;
+    }
+    .row{
+
+        flex-direction: column;
+        
+    }
+}
+@media (min-width: 600px) and (max-width:800px){
+
+    #name{
+        padding: 8px 10px;
+        margin-right: 2px;
+    
+    }
+    #Lastname{
+        padding: 8px 10px;
+        margin-left: 2px;
+        
+    }
+    .row{
+    
+    
+        margin: 0px 1.2px;
+    }
+
+
+    
+}
+@media (min-width: 800px) and (max-width:1000px){
+
+#name{
+    padding: 8px 15px;
+    margin-right: 4px;
+
+}
+#Lastname{
+    padding: 8px 15px;
+    margin-left: 4px;
+    
+}
+.row{
+
+
+    margin: 0px 1.2px;
+}
+
+}
+
+@media (min-width: 1000px){
+
+#name{
+    padding: 8px 20px;
+    margin-right: 4px;
+
+}
+#Lastname{
+    padding: 8px 20px;
+    margin-left: 4px;
+    
+}
+.row{
+
+
+    margin: 0px 1.2px;
+}
+
+}
